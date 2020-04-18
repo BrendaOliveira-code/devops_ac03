@@ -2,7 +2,6 @@
 # só existe quando executamos o script, nao fica salvo em nenhum arquivo diferente do exercicio1
 # que salva a tabela. 
 import sqlite3
-
 conn = sqlite3.connect(':memory:')
 
 c = conn.cursor()
